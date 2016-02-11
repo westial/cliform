@@ -11,9 +11,9 @@ configured to execute after the user input using the input value.
 
 1. Define a callback function. A parameter signed as "user_input" will contain 
 the user input. E.g.:
-```def function(user_input, extra_param):```
-&nbsp;&nbsp;&nbsp;&nbsp;```print(user_input)```
-&nbsp;&nbsp;&nbsp;&nbsp;```return extra_param```
+```def function(user_input, extra_param):
+    print(user_input)
+    return extra_param```
 2. Define the parameters of the callback function into a dict. E.g.:
 `params={'extra_param':'bye'}`
 3. Configure the Menu object like so:
